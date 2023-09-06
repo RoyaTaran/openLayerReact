@@ -2,75 +2,17 @@
   padding: 0;
   margin: 0;
 }
-
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 42rem;
-  justify-content: space-between;
-  padding: 2rem 0;
+.container{
+  padding: 1em 0;
 }
-
 .map-container {
   width: 90%;
   margin: 0 auto;
-  height: 38em;
+  height: 42rem;
   border: 10px solid black;
   box-sizing: border-box;
   border-radius: 0.7rem;
 }
 
-#popup {
-  padding: 0.7em;
-  background-color: #fff;
-  font-size: 0.8rem;
-  color: darkblue;
-  font-weight: bold;
-}
 
-#popup-content {
-  height: 2.3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.input-container {
-    display: none;
-  margin: 0 auto;
-}
-
-#title,
-#description {
-  border: none;
-  outline: none;
-  background-color: #d7d6d6;
-  padding: 1em;
-  border-radius: 0.5rem;
-  width: 20em;
-  color: darkblue;
-  margin-left: 1em;
-}
-
-#entry {
-  border: none;
-  padding: 0.5em 1em;
-  background-color: green;
-  font-size: 1.2em;
-  color: #fff;
-  border-radius: 0.2em;
-  cursor: pointer;
-  margin-left: 1em;
-}
-#show {
-  border: none;
-  padding: 0.5em 1em;
-  background-color: blue;
-  font-size: 1.2em;
-  color: #fff;
-  border-radius: 0.2em;
-  cursor: pointer;
-  margin-left: 1em;
-}
 
