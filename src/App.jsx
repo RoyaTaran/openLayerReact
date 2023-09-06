@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Map, View } from "ol";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
@@ -6,7 +6,6 @@ import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 import Style from "ol/style/Style";
 import { defaults as defaultControls } from "ol/control.js";
-import { Overlay } from "ol";
 import Draw from "ol/interaction/Draw.js";
 import Icon from "ol/style/Icon";
 import "./App.css";
